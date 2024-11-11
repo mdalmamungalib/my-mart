@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
         {/* header */}
         <Navbar/>
         {/* main */}
-        <main className="p-8 bg-[#1B1456] text-teal-50 min-h-screen mt-16">{children}</main>
+        <main className="p-8 bg-[#19192B] text-teal-50 min-h-screen mt-16 ml-60">{children}</main>
       </div>
       {/* main body */}
     </div>

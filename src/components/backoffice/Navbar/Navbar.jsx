@@ -3,7 +3,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="flex items-center justify-between bg-[#00001F] text-slate-50 h-16 px-8 py-4 fixed top-0 w-full ml-60">
+    <div className="flex items-center justify-between bg-[#00001F] text-slate-50 h-16 px-8 py-4 fixed top-0 w-full ">
         {/* icon */}
         <button>
             <AlignJustify/>
