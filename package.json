@@ -6,8 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "next test"
   },
+  "homepage": "./",
   "dependencies": {
     "chart.js": "^4.4.6",
     "lucide-react": "^0.454.0",
