@@ -1,3 +1,4 @@
+import DashboardCharts from "@/components/backoffice/DashboardCharts/DashboardCharts";
 import Heading from "@/components/backoffice/Heading/Heading";
 import LargeCard from "@/components/backoffice/LargeCard/LargeCard";
 import SmallCard from "@/components/backoffice/SmallCard/SmallCard";
@@ -13,6 +14,7 @@ const page = () => {
       {/* small cards */}
       <SmallCard/>
       {/* charts */}
+      <DashboardCharts/>
       {/* recent orders */}
     </div>
   );
