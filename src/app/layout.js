@@ -1,5 +1,6 @@
 import localFont from "next/font/local";
 import "../../styles/main.scss";
+import Script from "next/script";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -24,6 +25,8 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <Script src="/flowbite/dist/flowbite.min.js" strategy="afterInteractive" />
+
       </body>
     </html>
   );

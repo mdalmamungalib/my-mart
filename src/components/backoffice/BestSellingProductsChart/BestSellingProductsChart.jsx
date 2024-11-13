@@ -16,16 +16,16 @@ const BestSellingProductsChart = () => {
         label: "# of Votes",
         data: [50, 10, 20, 20],
         backgroundColor: [
-          "rgba(255, 99, 132, 0.2)",
-          "rgba(54, 162, 235, 0.2)",
-          "rgba(255, 206, 86, 0.2)",
-          "rgba(75, 192, 192, 0.2)",
+          "#16a34a",
+          "#2563eb",
+          "#0ea5e8",
+          "#ea580c",
         ],
         borderColor: [
-          "rgba(255, 99, 132, 1)",
-          "rgba(54, 162, 235, 1)",
-          "rgba(255, 206, 86, 1)",
-          "rgba(75, 192, 192, 1)",
+          "#f0f3f2",
+          "#f0f3f2",
+          "#f0f3f2",
+          "#f0f3f2",
         ],
         borderWidth: 1,
       },
@@ -36,7 +36,7 @@ const BestSellingProductsChart = () => {
       <h2 className="mb-5 text-xl font-bold">
         Best Selling Products Chart
       </h2>
-      <Pie data={data} />
+      <Pie data={data} className="w-14 h-14"/>
     </div>
   );
 };
