@@ -1,3 +1,4 @@
+import CustomDataTable from "@/components/backoffice/CustomDataTable/CustomDataTable";
 import DashboardCharts from "@/components/backoffice/DashboardCharts/DashboardCharts";
 import Heading from "@/components/backoffice/Heading/Heading";
 import LargeCard from "@/components/backoffice/LargeCard/LargeCard";
@@ -16,6 +17,7 @@ const page = () => {
       {/* charts */}
       <DashboardCharts/>
       {/* recent orders */}
+      <CustomDataTable/>
     </div>
   );
 };
