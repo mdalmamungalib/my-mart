@@ -1,9 +1,11 @@
-import CustomDataTable from "@/components/backoffice/CustomDataTable/CustomDataTable";
-import DashboardCharts from "@/components/backoffice/DashboardCharts/DashboardCharts";
-import Heading from "@/components/backoffice/Heading/Heading";
-import LargeCard from "@/components/backoffice/LargeCard/LargeCard";
-import SmallCard from "@/components/backoffice/SmallCard/SmallCard";
+
+
 import React from "react";
+import CustomDataTable from "../../../components/backoffice/CustomDataTable/CustomDataTable";
+import SmallCard from "../../../components/backoffice/SmallCard/SmallCard";
+import LargeCard from "../../../components/backoffice/LargeCard/LargeCard";
+import Heading from "../../../components/backoffice/Heading/Heading";
+import DashboardCharts from "../../../components/backoffice/DashboardCharts/DashboardCharts";
 
 const page = () => {
   return (

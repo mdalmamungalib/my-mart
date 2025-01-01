@@ -2,6 +2,10 @@ import { AlignJustify, Bell, Sun, User } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 import Galib from "../../../app/galib.png"
+import { Button } from "@/components/ui/button"
+
+
+
 
 const Navbar = () => {
   return (
@@ -31,6 +35,7 @@ const Navbar = () => {
           <Image src={Galib} alt="User Profile" width={200} height={200} className="w-8 h-8 rounded-full "/> 
         </button>
       </div>
+      <Button variant="outline">Button</Button>
 
     </div>
   );
